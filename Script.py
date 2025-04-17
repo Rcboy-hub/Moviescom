@@ -271,7 +271,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><blockquote><a href="https://t.me/btmx_zone">{file_caption}</a></blockquote></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/btmx_zone>[BTMX_ZONE™]</a></b>"""
+    CAPTION = """<b><blockquote><a href="https://t.me/mediaagalaxy">{file_caption}</a></blockquote></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/mediaagalaxy>[MRDIAGALAXY™]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
