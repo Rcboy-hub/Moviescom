@@ -18,7 +18,7 @@ class script(object):
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
         
-    CHANNELS = "https://t.me/movieesscom"https://t.me/mediaagalaxy"
+    CHANNELS = """
 <b>⚡ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ ⚡ 
 
 ▫ ᴀʟʟ ɴᴇᴡ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs.
