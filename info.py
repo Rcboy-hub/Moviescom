@@ -93,11 +93,11 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/beautyofthemoviesdiscussion')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/btmx_zone')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ashishofficials')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/beautyofthemoviesx1')
-OWNERID = int(os.environ.get('OWNERID', '1727523344'))  # Replace with the actual admin ID
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movieesscom')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/mediaagalaxy'')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Harishrc200')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/mediaagalaxy'')
+OWNERID = int(os.environ.get('OWNERID', '1409896358'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
@@ -116,7 +116,7 @@ PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Share & Support Us ♥️')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')  # Support group link (make sure bot is admin)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 DELETE_TIME = int(environ.get("DELETE_TIME", "300"))  #  deletion time in seconds (default: 5 minutes). Adjust as per your needs.
