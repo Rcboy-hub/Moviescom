@@ -30,7 +30,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://iili.io/2rCQZpn.jpg https://iili.io/2UzdkkQ.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://iili.io/24Uo4yP.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
 FSUB_PICS = (environ.get('FSUB_PICS', 'https://iili.io/2iBGyfs.jpg https://iili.io/2iBGjlj.jpg')).split()  # Fsub pic
@@ -55,8 +55,8 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/584cd1420a1aaacd92e22.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '2001aashish@axisb')
+QR_CODE = environ.get('QR_CODE', '')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'harishbharath89@oksbi')
 
 # ============================
 # MongoDB Configuration
