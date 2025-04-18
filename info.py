@@ -55,7 +55,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', '')
+QR_CODE = environ.get('QR_CODE', 'https://i.ibb.co/hFmm5F4B/file-1174.jpg')
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'harishbharath89@oksbi')
 
 # ============================
