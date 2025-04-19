@@ -105,6 +105,9 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
 
+# Enable logging
+logging.basicConfig(level=logging.INFO)
+
 # === Sticker file_id logger handler ===
 @Client.on_message(filters.sticker)
 async def sticker_id_handler(client, message: Message):
