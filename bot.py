@@ -22,10 +22,9 @@ from Deendayal_botz.Bot import DeendayalBot
 from Deendayal_botz.util.keepalive import ping_server
 from Deendayal_botz.Bot.clients import initialize_clients
 
-# === Sticker file_id logger handler ===
-@Client.on_message(filters.sticker)
-async def sticker_id_handler(client, message: Message):
-    await message.reply_text(f"Sticker file_id:\n`{message.sticker.file_id}`")
+# === Sticker file_id logger ===
+from pyrogram import filters
+from pyrogram.types import Message
 
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
@@ -105,3 +104,8 @@ if __name__ == '__main__':
         loop.run_until_complete(Deendayal_start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
+
+# === Sticker file_id logger handler ===
+@Client.on_message(filters.sticker)
+async def sticker_id_handler(client, message: Message):
+    await message.reply_text(f"Sticker file_id:\n`{message.sticker.file_id}`")
